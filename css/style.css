@@ -1,0 +1,261 @@
+body{
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Open Sans';
+}
+
+header{
+    background-color: #fff;
+    background-image: url("/assets/img/carros_avenida.png");
+    background-repeat: repeat;
+    background-blend-mode:luminosity;
+    background-size: cover;
+    background-position:top;
+    background-clip:border-box;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.foto_banner{
+    box-sizing: border-box;
+    width: 16vw;
+    height: 45vh;
+    
+    margin-left: 150px;
+    
+}
+.foto_banner img{
+    width: 100%;
+    height: 100%;
+}
+.info_banner{
+    display: flex;
+    width: 50vw;
+    height: 60vh;
+    margin-right: 35px;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.primeira_linha_topo{
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.logo{
+    width: 11vw;
+    height: 30vh;
+    margin-top: -35px;
+    margin-left: 10px;
+}
+.ja{
+    color: #fff;
+    font-family: 'Open Sans';
+    background-color: #12D01A;
+    width:13vw;
+    height: 7vh;
+    float: right;
+    margin-right: 60px;
+    margin-top: 30px;
+    border-radius: 50px;
+    font-weight: 700;
+    border: none;
+}
+.texto_banner{
+    font-weight: 800;
+    color: #E12C30;
+    margin-top: 30px;
+}
+.barra_quero{
+    background-color: #E12C30;
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video{
+    margin-right: 30px;
+}
+.container_form{
+    display: flex;
+    flex-direction: column;
+    background-color: #CE282B;
+    width: 30%;
+    height: 85%;
+    margin-left: 30px;
+    border-radius: 24px;
+    justify-content: center;
+    align-items: center;
+}
+.container_form input{
+    width: 90%;
+    height: 60px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    font-family: 'Open Sans';
+    color: #676767;
+    font-weight: 800;
+    outline:none;
+}
+.quero{
+    color: #fff;
+    font-family: 'Open Sans';
+    background-color: #12D01A;
+    border-radius: 50px;
+    font-weight: 700;
+    border: none;
+    width: 90%;
+    height: 40px;
+}
+.motivos{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #ffffff;
+    width: 100%;
+    height: 80vh;
+    color: #676767;
+    font-family: 'Open Sans';
+   
+}
+.motivos h3{
+    font-weight:bold;
+    margin-top: 35px;
+}
+.cards_section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+    
+}
+.card_motivos{
+    display: flex;
+    width: 35%;
+    height: 50%;
+    background-color: #F9F9F9;
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+    border-radius: 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+.icone{
+    display: flex;
+    background-color: #E12C30;
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    margin-left: 15px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+.texto_card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55%;
+    height: 75%;
+    box-sizing: border-box;
+    margin-right: 15px;
+    color:#676767;
+   
+}
+.texto_card h5{
+    font-weight: 500;
+}
+.negrito{
+    font-weight:900;
+}
+.ja_pensou{
+    width: 100%;
+    height: 50vh;
+    background-color: #E12C30;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: #fff;
+}
+.texto_ja{
+    margin-top: 35px;
+    width: 35%;
+    height: 80%;
+    font-weight: bold;
+}
+.qtos{
+    width: 80%;
+}
+.qtos h2{
+    font-weight: 900;
+}
+.sem_negrito{
+    width: 97%;
+}
+.carro_desenho{
+    margin-top: 30px;
+}
+.artigos{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 60%;
+    color: #676767;
+    margin:0 auto;
+    font-weight: 400;
+    text-align: justify;
+    margin-top: 30px;
+    
+}
+.vermelho{
+    color: #E12C30;
+}
+.artigo_1{
+    width: 65%;
+}
+.carros_artigo{
+    width: 30%;
+}
+.entre_artigos{
+    text-align: center;
+    color: #676767;
+    font-weight: 800;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.carteira{
+    width: 30%;
+    height: 90%;
+}
+.carteira img{
+    height: 400px;
+}
+
+.artigo_2{
+    width: 60%;
+    text-align: justify;
+}
+.quero_ser{
+    background-color: #12D01A;
+    width:70%;
+    height: 7vh;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    justify-self: center;
+    margin: 0 auto;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    border-radius: 50px;
+}
