@@ -200,6 +200,16 @@ header{
     font-weight: bold;
   
 }
+.erro::placeholder{
+color:#F84E4E;
+font-family: "FontAwesome";
+font-weight: 900;
+background-image: url(/assets/img/exc.svg);
+background-position: right;
+background-size:20px;
+background-repeat: no-repeat;
+background-clip: content-box;
+}
 .qtos{
     width: 80%;
 }
